@@ -1,5 +1,6 @@
 * {
-  font-family: sans-serif;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
   box-sizing: border-box;
   padding: 0px;
   margin: 0px;
@@ -16,7 +17,7 @@ body > * {
 }
 
 body > * > * {
-  flex-basis: 1200px;
+  flex-basis: 1100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,12 +47,9 @@ body > * > * {
 .header h3 {
   color: #F9FAF8;
   font-size: 24px;
+  font-weight: 900;
   margin: 0px;
   margin-right: auto;
-}
-
-.header a {
-  font-size: 18px;
 }
 
 .hero,
@@ -60,7 +58,7 @@ body > * > * {
 }
 
 .hero {
-  padding-top: 50px;
+  padding-top: 60px;
 }
 
 .hero-content {
@@ -74,28 +72,26 @@ body > * > * {
 }
 
 .hero-text p {
-  font-size: 18px;
-  margin: 10px 0px 20px 0px;
+  margin: 10px 0px;
 }
 
 button.sign-up {
   background: #3882F6;
   color: #F9FAF8;
-  font-size: 18px;
-  font-weight: bold;
-  width: 150px;
+  font-weight: 700;
+  width: 130px;
   height: 40px;
   border: none;
   border-radius: 6px;
 }
 
 .hero-image {
-  background: #999999;
+  background: #6D747D;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 550px;
-  min-height: 275px;
+  min-width: 525px;
+  min-height: 225px;
 }
 
 .info-content {
@@ -112,24 +108,24 @@ button.sign-up {
 
 .info-cards {
   display: flex;
-  gap: 40px;
+  gap: 50px;
 }
 
 .info-card {
   text-align: center;
-  width: 200px;
+  width: 170px;
 }
 
 .info-card-image {
-  width: 190px;
-  height: 190px;
-  border: 5px solid #3882F6;
+  width: 170px;
+  height: 170px;
+  border: 4px solid #3882F6;
   border-radius: 20px;
   margin-bottom: 10px;
 }
 
 .info-card p {
-  color: #1F2937;
+  color: #6D747D;
 }
 
 .quotes,
@@ -139,19 +135,20 @@ button.sign-up {
 
 .quotes-content {
   display: block;
+  max-width: 870px;
 }
 
 .quotes-content p {
   color: #1F2937;
   font-size: 36px;
-  font-weight: lighter;
+  font-weight: 300;
   font-style: italic;
 }
 
 .quotes-content h3 {
   color: #1F2937;
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 700;
   text-align: right;
 }
 
@@ -166,8 +163,7 @@ button.sign-up {
 }
 
 .cta-text p {
-  color: #F9FAF8;
-  font-size: 18px;
+  color: #E5E7EB;
 }
 
 .cta-text h3 {
