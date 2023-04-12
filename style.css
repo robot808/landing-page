@@ -1,11 +1,12 @@
 * {
+  font-family: sans-serif;
   box-sizing: border-box;
   padding: 0px;
   margin: 0px;
 }
 
 body {
-  min-width: 960px;
+  min-width: 1000px;
 }
 
 body > * {
@@ -15,17 +16,18 @@ body > * {
 }
 
 body > * > * {
-  flex-basis: 1120px;
+  flex-basis: 1200px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 25px 50px;
+  padding: 20px 40px;
 }
 
 .header,
 .footer,
 .hero {
   background: #1F2937;
+  color: #E5E7EB;
 }
 
 .info,
@@ -42,8 +44,14 @@ body > * > * {
 }
 
 .header h3 {
+  color: #F9FAF8;
+  font-size: 24px;
   margin: 0px;
   margin-right: auto;
+}
+
+.header a {
+  font-size: 18px;
 }
 
 .hero,
@@ -59,15 +67,47 @@ body > * > * {
   gap: 40px;
 }
 
+.hero-text h1 {
+  color: #F9FAF8;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero-text p {
+  font-size: 18px;
+  margin: 10px 0px 20px 0px;
+}
+
+button.sign-up {
+  background: #3882F6;
+  color: #F9FAF8;
+  font-size: 18px;
+  font-weight: bold;
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 6px;
+}
+
 .hero-image {
   background: #999999;
-  min-width: 500px;
-  min-height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 550px;
+  min-height: 275px;
 }
 
 .info-content {
   flex-direction: column;
   gap: 20px;
+}
+
+.info-content h2 {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 900;
+  margin: 30px 0px;
 }
 
 .info-cards {
@@ -77,14 +117,19 @@ body > * > * {
 
 .info-card {
   text-align: center;
-  width: 180px;
+  width: 200px;
 }
 
 .info-card-image {
-  width: 172px;
-  height: 172px;
-  border: 4px solid #3882F6;
-  border-radius: 16px;
+  width: 190px;
+  height: 190px;
+  border: 5px solid #3882F6;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.info-card p {
+  color: #1F2937;
 }
 
 .quotes,
@@ -96,6 +141,20 @@ body > * > * {
   display: block;
 }
 
+.quotes-content p {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.quotes-content h3 {
+  color: #1F2937;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: right;
+}
+
 .cta-banner {
   background: #3882F6;
   display: flex;
@@ -104,6 +163,21 @@ body > * > * {
   flex-basis: 1120px;
   height: 150px;
   border-radius: 16px;
+}
+
+.cta-text p {
+  color: #F9FAF8;
+  font-size: 18px;
+}
+
+.cta-text h3 {
+  color: #F9FAF8;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.cta-banner button.sign-up {
+  border: 2px solid #F9FAF8;
 }
 
 .footer {
